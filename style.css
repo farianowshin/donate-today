@@ -1,63 +1,109 @@
-.bg {
-    background-image: url(images/pic2.jpeg);
+body {
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body,
+html {
     height: 100%;
-    width: 100%;
-    display: block;
+}
+
+
+.bg-firstsection {
+
+    background-image: url(images/pic3.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.button {
+    color: black;
+    background-image: linear-gradient(to right, rgb(174, 149, 149), coral);
+    font-size: xx-large;
+    text-decoration: none;
+    background-color: coral;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+
+}
+
+.first-section h1 {
+    padding-top: 200px;
+    font-size: 70px;
+
+}
+
+.first-section p {
+
+    font-weight: 700;
+    font-size: 30px;
 
 }
 
 .first-section {
-    color: whitesmoke;
-    text-align: left;
+    text-align: center;
+    position: relative;
+}
+
+.second-section h1 {
     font-size: 50px;
-    margin-left: 20px;
 
 }
 
+.second-section p {
+    color: gray;
 
+    font-size: 20px;
 
-
-
-.link-button {
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: 700;
-    background-image: linear-gradient(to right, whitesmoke, orange);
-    color: black;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 30px;
-    margin-left: 20px;
-
-}
-
-link-button :hover {
-    color: brown;
-    border: 2px black solid;
 }
 
 .second-section {
-    color: black;
     text-align: center;
-    font-size: 40px;
+    position: relative;
+}
 
-
+.donate-section {
+    padding-left: 250px;
+    position: absolute;
+    position: relative;
+    text-align: center;
+    display: flex;
+    padding-right: 250px;
 
 }
 
-section {
-    height: 500px;
+.donate-div {
+    background-color: wheat;
+    margin: auto;
+    font-size: 30px;
+    padding: 10px 30px;
+    text-align: center;
 }
 
-.float {
-    display: inline-flex;
+.hr-section {
+    padding: 10px;
+    color: gray;
+    font-weight: 700;
 }
 
-.box-model {
-    padding: 10px 10px 10px 10px;
-    border: 0px white solid;
-    background-color: whitesmoke;
-    margin: 20px;
+.hr-section hr {
+    width: 50%;
+    text-align: justify;
+}
+
+.hr-section h3 {
+
+    text-align: center;
+}
+
+.second-button {
+    text-align: center;
 }
