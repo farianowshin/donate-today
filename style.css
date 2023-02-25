@@ -2,24 +2,16 @@ body {
     font-family: 'Gentium Book Plus', serif;
     font-family: 'Libre Franklin', sans-serif;
     font-family: 'Poppins', sans-serif;
-
+    margin: 0;
 }
-
-body,
-html {
-    height: 100%;
-}
-
 
 .bg-firstsection {
 
-    background-image: url(images/pic3.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: rgba(0, 0, 0, 0.5)url("images/pic3.jpg");
+    height: 1000px;
     background-size: cover;
-
-
+    background-blend-mode: darken;
+    margin-top: -60px;
 }
 
 .button {
@@ -50,7 +42,7 @@ html {
 
 .first-section {
     text-align: center;
-    position: relative;
+
 }
 
 .second-section h1 {
@@ -59,13 +51,14 @@ html {
 }
 
 .second-section p {
+    margin-bottom: 50px;
     color: gray;
-
     font-size: 20px;
 
 }
 
 .second-section {
+    margin-top: 300px;
     text-align: center;
     position: relative;
 }
@@ -80,16 +73,30 @@ html {
 
 }
 
-.donate-div {
-    background-color: wheat;
-    margin: auto;
+.donate {
+    margin: 0px 10px;
+    width: 180px;
+    color: whitesmoke;
+    border: 2px solid red;
+    background-color: rgba(255, 99, 71, 0.535);
     font-size: 30px;
-    padding: 10px 30px;
+    padding: 30px 0px;
+    text-align: center;
+
+}
+
+.donate-div {
+    margin: 0px 10px;
+    width: 180px;
+    background-color: wheat;
+    font-size: 30px;
+    padding: 30px 0px;
     text-align: center;
 }
 
 .hr-section {
-    padding: 10px;
+    padding: 20px;
+    margin: 20px;
     color: gray;
     font-weight: 700;
 }
@@ -156,6 +163,7 @@ html {
 }
 
 .fifth-section {
+    height: 400px;
     display: flex;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -165,16 +173,21 @@ html {
 
 .fifth-div h1 {
     font-size: 50px;
+    margin: 20px;
 }
 
 .fifth-div p {
     color: gray;
-    padding-bottom: 10px;
-    padding-right: 30px;
+    margin: 20px;
     text-align: justify;
 }
 
+.fifth-div a {
+    margin: 20px;
+}
+
 .sixth-section {
+    height: 400px;
     display: flex;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -183,8 +196,12 @@ html {
 
 }
 
+.sixth-div a {
+    margin: 30px;
+}
+
 .sixth-section img {
-    padding-top: 20px;
+    margin: 20px;
     height: 100%;
     width: 100%;
 }
@@ -205,10 +222,11 @@ html {
 }
 
 .seventh-section {
-    padding: 50px;
+    margin-top: 150px;
 }
 
 .seventh-section h1 {
+    margin-top: 100px;
     font-weight: 700;
     font-size: 40px;
     text-align: center;
@@ -221,8 +239,8 @@ html {
 }
 
 .seventh-section div {
+    padding-top: 50px;
     margin-left: 20%;
-    padding-top: 45px;
     height: 100px;
     width: 900px;
     text-align: center;
@@ -230,13 +248,17 @@ html {
 }
 
 #email {
-
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     font-size: 20px;
     padding: 10px 20px;
+    margin-right: -5px;
 }
 
 #email-button {
-    font-weight: 700;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: 500;
     padding: 10px 20px;
     font-size: 20px;
     background-color: crimson;
@@ -245,16 +267,21 @@ html {
 }
 
 .eighth-section {
-
+    height: 160px;
     margin-top: 50px;
-
+    text-align: center;
     background-color: rgb(4, 4, 19);
 }
 
-#eighth-div {
-    font-size: 20px;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.eighth-section p {
     color: aliceblue;
+    margin-top: 0;
+
+}
+
+.eighth-section h1 {
+    color: tomato;
+    font-family: "Sofia", sans-serif;
+    padding-top: 30px;
+
 }
